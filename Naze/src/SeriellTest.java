@@ -24,16 +24,6 @@ public class SeriellTest implements SerialPortEventListener {
 	public static void main(String[] args) {
 		SeriellTest st = new SeriellTest();
 
-		// uint8_t checksum = 0;
-		//
-		// Serial.write((byte *)"$M<", 3);
-		// Serial.write(n_bytes); --> 0
-		// checksum ^= n_bytes;
-		//
-		// Serial.write(opcode);
-		// checksum ^= opcode;
-		//
-		// Serial.write(checksum);
 
 		st.schreibeAufSeriell();
 
