@@ -24,9 +24,6 @@ public class CopyOfSeriellTest implements SerialPortEventListener {
 	public static int msp = 108;
 	
 	
-	
-	
-	
 	public static void main(String[] args) {
 		CopyOfSeriellTest st = new CopyOfSeriellTest();
 
