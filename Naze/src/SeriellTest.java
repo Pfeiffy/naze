@@ -20,13 +20,17 @@ public class SeriellTest implements SerialPortEventListener {
 	static String temp1;
 	static String temp2;
 	public static int msp = 108;
+	static int angx = 0;
+	static int angy = 0;
+	static int heading = 0;
+
 
 	public static void main(String[] args) throws InterruptedException {
 		SeriellTest st = new SeriellTest();
 
 		for (int x = 1; x < 100; x++) {
 			st.schreibeAufSeriell();
-			Thread.sleep(200);
+			Thread.sleep(20);
 		}
 
 	}
@@ -61,36 +65,38 @@ public class SeriellTest implements SerialPortEventListener {
 				for (int i = 0; i < length && inputStream.available() > 0; i++) {
 					int value = inputStream.read();
 					response[i] = (byte) value;
-//					System.out.println("Value: " + i + " bi: " + Integer.toBinaryString(value) + " int: " + value
-//							+ " byte: " + response[i]);
+					System.out.println("Value: " + i + " bi: " + Integer.toBinaryString(value) + " int: " + value
+							+ " byte: " + response[i]);
 					intArray[i] = value;
 					zaehler++;
 				}
-				System.out.println("------------------");
+				// System.out.println("------------------");
 
 				int pointer = 4;
 
-				int angx = 0;
-				int angy = 0;
-				int heading = 0;
-
-				angx = intArray[4];
-				angx += response[5] * 256;
-
-				angy = intArray[6];
-				angy += response[7] * 256;
-
-				heading = intArray[8];
-				heading += response[9] * 256;
-
-				System.out.println("angx: " + angx + " angy: " + angy + " heading: " + heading);
-
-//				System.exit(0);
+				if (intArray[3] == 108) {
+					getAttitude(response, intArray);
+				}
+				// System.exit(0);
 
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	private void getAttitude(byte[] response, int[] intArray) {
+
+		angx = intArray[4];
+		angx += response[5] * 256;
+
+		angy = intArray[6];
+		angy += response[7] * 256;
+
+		heading = intArray[8];
+		heading += response[9] * 256;
+
+		System.out.println("angx: " + angx + " angy: " + angy + " heading: " + heading);
 	}
 
 	private void schreibeAufSeriell() {
@@ -125,7 +131,5 @@ public class SeriellTest implements SerialPortEventListener {
 			e.printStackTrace();
 		}
 	}
-
-
 
 }
