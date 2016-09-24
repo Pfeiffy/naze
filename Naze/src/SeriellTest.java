@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream; //import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.Iterator;
 import java.util.TooManyListenersException;
 
 //import OeffnenUndSenden.serialPortEventListener;
@@ -19,19 +20,23 @@ public class SeriellTest implements SerialPortEventListener {
 	static String gesendet; // was habe ich gesendet
 	static String temp1;
 	static String temp2;
-	public static int msp = 108;
+	static int RC_RATE = 0;
+	static int RC_EXPO =0;
+	static int ident = 0;
 	static int angx = 0;
 	static int angy = 0;
 	static int heading = 0;
-
+	static int altitude = 0;
+	static int vario = 0;
+	static int[] MSP_IDENT = {100,100};
+	static int[] MSP_RC_TUNING = {111,111};
+	static int[] MSP_ATTITUDE = { 108, 108 };
+	static int[] MSP_ALTITUDE = { 109, 109 };
 
 	public static void main(String[] args) throws InterruptedException {
 		SeriellTest st = new SeriellTest();
 
-		for (int x = 1; x < 100; x++) {
-			st.schreibeAufSeriell();
-			Thread.sleep(20);
-		}
+		st.sendeNaze(MSP_RC_TUNING);
 
 	}
 
@@ -70,14 +75,17 @@ public class SeriellTest implements SerialPortEventListener {
 					intArray[i] = value;
 					zaehler++;
 				}
-				// System.out.println("------------------");
 
-				int pointer = 4;
-
+				if (intArray[3] == 111) {
+					getMSP_RC_TUNING(response, intArray);
+				}
 				if (intArray[3] == 108) {
 					getAttitude(response, intArray);
 				}
-				// System.exit(0);
+				if (intArray[3] == 109) {
+					getAltitude(response, intArray);
+				}
+				System.exit(0);
 
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -85,21 +93,86 @@ public class SeriellTest implements SerialPortEventListener {
 		}
 	}
 
+
+	// Lageposition und Kompasswinkel
+	private void getMSP_IDENT(byte[] response, int[] intArray) {
+		ident = uint8(intArray, 4);
+
+
+		System.out.println("Ident: " + ident );
+	}
+	
+	// Lageposition und Kompasswinkel
+	private void getMSP_RC_TUNING(byte[] response, int[] intArray) {
+		RC_RATE = uint8(intArray, 4);
+		RC_EXPO = uint8(intArray, 5);
+
+
+		System.out.println("RC_RATE: " + RC_RATE+  " RC_EXPO: " + RC_EXPO );
+	}
+	
+	
+	
+	
+	
+	
+	// Lageposition und Kompasswinkel
+
 	private void getAttitude(byte[] response, int[] intArray) {
 
-		angx = intArray[4];
-		angx += response[5] * 256;
+		angx = uint8to16(intArray, 4);
 
-		angy = intArray[6];
-		angy += response[7] * 256;
+		angy = uint8to16(intArray, 6);
 
-		heading = intArray[8];
-		heading += response[9] * 256;
+		heading = uint8to16(intArray, 8);
 
 		System.out.println("angx: " + angx + " angy: " + angy + " heading: " + heading);
 	}
 
-	private void schreibeAufSeriell() {
+	// Höhe
+	private void getAltitude(byte[] response, int[] intArray) {
+
+		altitude = uint8to32(intArray, 4);
+
+		System.out.println("altitude: " + altitude + " vario: " + vario);
+	}
+
+	private int uint8(int[] intArray, int startPointer) {
+
+		int wert8 = (intArray[startPointer] );
+
+		if (intArray[5] >= 128) {
+			wert8 = 256 * 256 - wert8;
+		}
+
+		return wert8;
+	}
+
+	private int uint8to16(int[] intArray, int startPointer) {
+
+		int wert16 = (intArray[startPointer] + intArray[startPointer + 1] * 256);
+
+		if (intArray[5] >= 128) {
+			wert16 = 256 * 256 - wert16;
+		}
+
+		return wert16;
+	}
+
+	private int uint8to32(int[] intArray, int startPointer) {
+
+		int wert32 = (intArray[startPointer] + intArray[startPointer+1] * 256 + intArray[startPointer+2] * 256
+				+ intArray[startPointer+3] * 256);
+		if (intArray[startPointer] >= 128) {
+			wert32 = 256 * 256 - wert32;
+		}
+
+		return wert32;
+
+
+	}
+
+	private void sendeNaze(int[] befehlArray) {
 		try {
 			// // 24 4d 3c 00 01 01
 			// outputStream.write(0x24);//36
@@ -118,18 +191,23 @@ public class SeriellTest implements SerialPortEventListener {
 			// outputStream.write(0x6c);
 
 			// 24 4d 3c 00 01 01
-			outputStream.write(36);
-			outputStream.write(77);
-			outputStream.write(60);
-			outputStream.write(0);
-			outputStream.write(msp);
-			outputStream.write(msp);
+			sendenHeader();
+			for (int i = 0; i < befehlArray.length; i++) {
+				outputStream.write(befehlArray[i]);
+			}
 
 			outputStream.flush();
 			outputStream.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private void sendenHeader() throws IOException {
+		outputStream.write(36);
+		outputStream.write(77);
+		outputStream.write(60);
+		outputStream.write(0);
 	}
 
 }
