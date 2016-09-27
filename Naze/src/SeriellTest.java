@@ -3,6 +3,8 @@ import gnu.io.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream; //import java.io.OutputStream;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Iterator;
@@ -21,22 +23,29 @@ public class SeriellTest implements SerialPortEventListener {
 	static String temp1;
 	static String temp2;
 	static int RC_RATE = 0;
-	static int RC_EXPO =0;
+	static int RC_EXPO = 0;
 	static int ident = 0;
 	static int angx = 0;
 	static int angy = 0;
 	static int heading = 0;
 	static int altitude = 0;
 	static int vario = 0;
-	static int[] MSP_IDENT = {100,100};
-	static int[] MSP_RC_TUNING = {111,111};
+	static int gpsFix = 0;
+	static int gpsNumSat = 0;
+	static int gpsLat = 0;
+	static int gpsLon = 0;
+
+	static int[] MSP_IDENT = { 100, 100 };
+	static int[] MSP_RC_TUNING = { 111, 111 };
+	static int[] MSP_RAW_GPS = { 106, 106 };
 	static int[] MSP_ATTITUDE = { 108, 108 };
 	static int[] MSP_ALTITUDE = { 109, 109 };
 
 	public static void main(String[] args) throws InterruptedException {
 		SeriellTest st = new SeriellTest();
 
-		st.sendeNaze(MSP_RC_TUNING);
+		// st.sendeNaze(MSP_RC_TUNING);
+		st.sendeNaze(MSP_ATTITUDE);
 
 	}
 
@@ -85,6 +94,10 @@ public class SeriellTest implements SerialPortEventListener {
 				if (intArray[3] == 109) {
 					getAltitude(response, intArray);
 				}
+				if (intArray[3] == 106) {
+					getGPS(response, intArray);
+				}
+
 				System.exit(0);
 
 			} catch (IOException e) {
@@ -93,38 +106,42 @@ public class SeriellTest implements SerialPortEventListener {
 		}
 	}
 
+	// Lageposition und Kompasswinkel
+	private void getGPS(byte[] response, int[] intArray) {
+		gpsFix = uint8(intArray, 4);
+		gpsNumSat = uint8(intArray, 5);
+		gpsLat = uint8to32(intArray, 6);
+		gpsLon = uint8to32(intArray, 10);
+
+		System.out.println(
+				"gpsFix: " + gpsFix + " gpsNumSat: " + gpsNumSat + " gpsLat: " + gpsLat + " gpsLon: " + gpsLon);
+	}
 
 	// Lageposition und Kompasswinkel
 	private void getMSP_IDENT(byte[] response, int[] intArray) {
 		ident = uint8(intArray, 4);
 
-
-		System.out.println("Ident: " + ident );
+		System.out.println("Ident: " + ident);
 	}
-	
+
 	// Lageposition und Kompasswinkel
 	private void getMSP_RC_TUNING(byte[] response, int[] intArray) {
 		RC_RATE = uint8(intArray, 4);
 		RC_EXPO = uint8(intArray, 5);
 
-
-		System.out.println("RC_RATE: " + RC_RATE+  " RC_EXPO: " + RC_EXPO );
+		System.out.println("RC_RATE: " + RC_RATE + " RC_EXPO: " + RC_EXPO);
 	}
-	
-	
-	
-	
-	
-	
+
 	// Lageposition und Kompasswinkel
 
 	private void getAttitude(byte[] response, int[] intArray) {
 
-		angx = uint8to16(intArray, 4);
+		angx = uint8to16(response, 4);
+		
 
-		angy = uint8to16(intArray, 6);
+		angy = uint8to16(response, 6);
 
-		heading = uint8to16(intArray, 8);
+		heading = uint8to16(response, 8);
 
 		System.out.println("angx: " + angx + " angy: " + angy + " heading: " + heading);
 	}
@@ -139,7 +156,7 @@ public class SeriellTest implements SerialPortEventListener {
 
 	private int uint8(int[] intArray, int startPointer) {
 
-		int wert8 = (intArray[startPointer] );
+		int wert8 = (intArray[startPointer]);
 
 		if (intArray[5] >= 128) {
 			wert8 = 256 * 256 - wert8;
@@ -148,27 +165,34 @@ public class SeriellTest implements SerialPortEventListener {
 		return wert8;
 	}
 
-	private int uint8to16(int[] intArray, int startPointer) {
+	private int uint8to16(byte[] byteArray, int startPointer) {
 
-		int wert16 = (intArray[startPointer] + intArray[startPointer + 1] * 256);
-
-		if (intArray[5] >= 128) {
-			wert16 = 256 * 256 - wert16;
-		}
-
-		return wert16;
+		
+		ByteBuffer b = ByteBuffer.wrap(byteArray, startPointer,2).order(ByteOrder.LITTLE_ENDIAN);
+		int ret = b.getShort();
+		return ret;
 	}
+
+//	private int uint8to16(int[] intArray, int startPointer) {
+//
+//		int wert16 = (intArray[startPointer] + intArray[startPointer + 1] * 256);
+//
+//		if (intArray[startPointer] >= 128) {
+//			wert16 = 256 * 256 - wert16;
+//		}
+//
+//		return wert16;
+//	}
 
 	private int uint8to32(int[] intArray, int startPointer) {
 
-		int wert32 = (intArray[startPointer] + intArray[startPointer+1] * 256 + intArray[startPointer+2] * 256
-				+ intArray[startPointer+3] * 256);
-		if (intArray[startPointer] >= 128) {
-			wert32 = 256 * 256 - wert32;
+		int wert32 = (intArray[startPointer] + intArray[startPointer + 1] * 256 + intArray[startPointer + 2] * 256 * 256
+				+ intArray[startPointer + 3] * 256 * 256 * 256);
+		if (intArray[startPointer + 3] >= 128) {
+			wert32 = 256 * 256 * 256 * 256 - wert32;
 		}
 
 		return wert32;
-
 
 	}
 
