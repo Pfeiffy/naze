@@ -1,0 +1,4048 @@
+024262: Write Request (DOWN), 2016-09-27 20:11:35,4230682 +0,0621827 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+024268: I/O Request (UP), 2016-09-27 20:11:35,4357389 +0,0013241 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024270: I/O Request (UP), 2016-09-27 20:11:35,4357914 +0,0000137 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+024272: Read Request (UP), 2016-09-27 20:11:35,4358199 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B3 0D 00 00 07 00 00 00 00 00 02 D5               ≥..........’
+024273: I/O Request (DOWN), 2016-09-27 20:11:35,4358823 +0,0000624 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024276: I/O Request (UP), 2016-09-27 20:11:35,4377898 +0,0018825 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024278: I/O Request (UP), 2016-09-27 20:11:35,4378330 +0,0000096 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024280: Read Request (UP), 2016-09-27 20:11:35,4378522 +0,0000029 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024281: I/O Request (DOWN), 2016-09-27 20:11:35,4379034 +0,0000512 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024284: Write Request (DOWN), 2016-09-27 20:11:35,5340709 +0,0961474 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024290: I/O Request (UP), 2016-09-27 20:11:35,5450015 +0,0010505 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024292: I/O Request (UP), 2016-09-27 20:11:35,5450815 +0,0000166 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024294: Read Request (UP), 2016-09-27 20:11:35,5451110 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AD 0D 00 00 07 00 00 00 00 00 02 CB               ≠..........À
+024295: I/O Request (DOWN), 2016-09-27 20:11:35,5451846 +0,0000736 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024298: I/O Request (UP), 2016-09-27 20:11:35,5471538 +0,0019417 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024300: I/O Request (UP), 2016-09-27 20:11:35,5472040 +0,0000134 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024302: Read Request (UP), 2016-09-27 20:11:35,5472306 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024303: I/O Request (DOWN), 2016-09-27 20:11:35,5472895 +0,0000589 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024306: Write Request (DOWN), 2016-09-27 20:11:35,6181897 +0,0708759 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024308: I/O Request (UP), 2016-09-27 20:11:35,6215083 +0,0031957 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024310: I/O Request (UP), 2016-09-27 20:11:35,6215544 +0,0000128 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024312: Read Request (UP), 2016-09-27 20:11:35,6215765 +0,0000029 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 D9 0D 00 00 07 00 00 00 00 00 02   $M>.eŸ..........
+ BF                                                ø
+
+024313: I/O Request (DOWN), 2016-09-27 20:11:35,6216290 +0,0000525 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024316: Write Request (DOWN), 2016-09-27 20:11:35,6498002 +0,0281504 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024322: I/O Request (UP), 2016-09-27 20:11:35,6611916 +0,0031852 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024324: I/O Request (UP), 2016-09-27 20:11:35,6612470 +0,0000131 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024326: Read Request (UP), 2016-09-27 20:11:35,6612697 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ BA 0D 00 00 07 00 00 00 00 00 02 DC               ∫..........‹
+024327: I/O Request (DOWN), 2016-09-27 20:11:35,6613232 +0,0000535 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024330: I/O Request (UP), 2016-09-27 20:11:35,6638857 +0,0025421 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024332: I/O Request (UP), 2016-09-27 20:11:35,6639237 +0,0000086 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024334: Read Request (UP), 2016-09-27 20:11:35,6639401 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024335: I/O Request (DOWN), 2016-09-27 20:11:35,6639810 +0,0000409 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024338: Write Request (DOWN), 2016-09-27 20:11:35,7672079 +0,1032102 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024344: I/O Request (UP), 2016-09-27 20:11:35,7822383 +0,0054466 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024346: I/O Request (UP), 2016-09-27 20:11:35,7822968 +0,0000176 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024348: Read Request (UP), 2016-09-27 20:11:35,7823256 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ BD 0D 00 00 07 00 00 00 00 00 02 DB 24 4D 3E 07   Ω..........€$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024349: I/O Request (DOWN), 2016-09-27 20:11:35,7823941 +0,0000685 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024352: Write Request (DOWN), 2016-09-27 20:11:35,8672720 +0,0848523 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xc bytes
+ 24 4D 3C 00 65 65 24 4D 3C 00 74 74               $M<.ee$M<.tt
+
+024356: I/O Request (UP), 2016-09-27 20:11:35,8716399 +0,0017507 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024358: I/O Request (UP), 2016-09-27 20:11:35,8716920 +0,0000157 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024360: Read Request (UP), 2016-09-27 20:11:35,8717195 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 A7 0D 00 00 07 00 00 00 00 00 02   $M>.eß..........
+ C1                                                ¡
+
+024361: I/O Request (DOWN), 2016-09-27 20:11:35,8717832 +0,0000637 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024364: Write Request (DOWN), 2016-09-27 20:11:35,8723173 +0,0005085 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+024366: I/O Request (UP), 2016-09-27 20:11:35,8828668 +0,0102263 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024368: I/O Request (UP), 2016-09-27 20:11:35,8829539 +0,0000138 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=104
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024370: Read Request (UP), 2016-09-27 20:11:35,8829827 +0,0000052 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x68 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 07 6E   ;FAILSAFE;.$M>.n
+ 00 00 00 00 00 00 00 69                           .......i
+
+024371: I/O Request (DOWN), 2016-09-27 20:11:35,8830575 +0,0000748 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024374: Write Request (DOWN), 2016-09-27 20:11:35,9834707 +0,1003853 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024380: I/O Request (UP), 2016-09-27 20:11:35,9959207 +0,0027929 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024382: I/O Request (UP), 2016-09-27 20:11:35,9959767 +0,0000167 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024384: Read Request (UP), 2016-09-27 20:11:35,9960048 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ BB 0D 00 00 07 00 00 00 00 00 02 DD               ª..........›
+
+024385: I/O Request (DOWN), 2016-09-27 20:11:35,9960692 +0,0000644 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024388: I/O Request (UP), 2016-09-27 20:11:35,9980397 +0,0019440 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024390: I/O Request (UP), 2016-09-27 20:11:35,9980694 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024392: Read Request (UP), 2016-09-27 20:11:35,9980819 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024393: I/O Request (DOWN), 2016-09-27 20:11:35,9981104 +0,0000285 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024396: Write Request (DOWN), 2016-09-27 20:11:36,0862496 +0,0881277 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024402: I/O Request (UP), 2016-09-27 20:11:36,0975812 +0,0015526 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024404: I/O Request (UP), 2016-09-27 20:11:36,0976797 +0,0000160 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024406: Read Request (UP), 2016-09-27 20:11:36,0977092 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B6 0D 00 00 07 00 00 00 00 00 02 D0               ∂..........–
+
+024407: I/O Request (DOWN), 2016-09-27 20:11:36,0978621 +0,0001529 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024410: I/O Request (UP), 2016-09-27 20:11:36,0996826 +0,0017757 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024412: I/O Request (UP), 2016-09-27 20:11:36,0997210 +0,0000125 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024414: Read Request (UP), 2016-09-27 20:11:36,0997479 +0,0000039 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024415: I/O Request (DOWN), 2016-09-27 20:11:36,0998061 +0,0000582 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024418: Write Request (DOWN), 2016-09-27 20:11:36,1053266 +0,0054952 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024420: I/O Request (UP), 2016-09-27 20:11:36,1105355 +0,0050527 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024422: I/O Request (UP), 2016-09-27 20:11:36,1105595 +0,0000090 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024424: Read Request (UP), 2016-09-27 20:11:36,1105755 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B3 0D 00 00 07 00 00 00 00 00 02   $M>.e≥..........
+ D5                                                ’
+
+024425: I/O Request (DOWN), 2016-09-27 20:11:36,1106113 +0,0000358 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024428: Write Request (DOWN), 2016-09-27 20:11:36,2003748 +0,0897478 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024434: I/O Request (UP), 2016-09-27 20:11:36,2144913 +0,0046553 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024436: I/O Request (UP), 2016-09-27 20:11:36,2145476 +0,0000166 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024438: Read Request (UP), 2016-09-27 20:11:36,2145767 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AE 0D 00 00 07 00 00 00 00 00 02 C8 24 4D 3E 07   Æ..........»$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024439: I/O Request (DOWN), 2016-09-27 20:11:36,2146471 +0,0000704 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024442: Write Request (DOWN), 2016-09-27 20:11:36,3174657 +0,1027917 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024448: I/O Request (UP), 2016-09-27 20:11:36,3291694 +0,0021564 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024450: I/O Request (UP), 2016-09-27 20:11:36,3292337 +0,0000182 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024452: Read Request (UP), 2016-09-27 20:11:36,3292645 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B3 0D 00 00 07 00 00 00 00 00 02 D5               ≥..........’
+
+024453: I/O Request (DOWN), 2016-09-27 20:11:36,3293320 +0,0000675 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024456: I/O Request (UP), 2016-09-27 20:11:36,3312609 +0,0019011 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024458: I/O Request (UP), 2016-09-27 20:11:36,3312955 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024460: Read Request (UP), 2016-09-27 20:11:36,3313172 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024461: I/O Request (DOWN), 2016-09-27 20:11:36,3313687 +0,0000515 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024464: Write Request (DOWN), 2016-09-27 20:11:36,3549026 +0,0235127 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024466: I/O Request (UP), 2016-09-27 20:11:36,3596200 +0,0045887 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024468: I/O Request (UP), 2016-09-27 20:11:36,3596526 +0,0000125 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024470: Read Request (UP), 2016-09-27 20:11:36,3596747 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 A3 0D 00 00 07 00 00 00 00 00 02   $M>.e£..........
+ C5                                                ≈
+
+024471: I/O Request (DOWN), 2016-09-27 20:11:36,3597275 +0,0000528 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024474: Write Request (DOWN), 2016-09-27 20:11:36,4347975 +0,0750483 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024480: I/O Request (UP), 2016-09-27 20:11:36,4496318 +0,0048633 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024482: I/O Request (UP), 2016-09-27 20:11:36,4496798 +0,0000135 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024484: Read Request (UP), 2016-09-27 20:11:36,4497031 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AA 0D 00 00 07 00 00 00 00 00 02 CC 24 4D 3E 07   ™..........Ã$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024485: I/O Request (DOWN), 2016-09-27 20:11:36,4497588 +0,0000557 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024488: Write Request (DOWN), 2016-09-27 20:11:36,5492702 +0,0994890 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024494: I/O Request (UP), 2016-09-27 20:11:36,5621708 +0,0049052 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024496: I/O Request (UP), 2016-09-27 20:11:36,5622184 +0,0000134 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024498: Read Request (UP), 2016-09-27 20:11:36,5622415 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B4 0D 00 00 07 00 00 00 00 00 02 D2 24 4D 3E 07   ¥..........“$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024499: I/O Request (DOWN), 2016-09-27 20:11:36,5622952 +0,0000537 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024502: Write Request (DOWN), 2016-09-27 20:11:36,6050789 +0,0427622 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024504: I/O Request (UP), 2016-09-27 20:11:36,6089941 +0,0037616 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024506: I/O Request (UP), 2016-09-27 20:11:36,6090347 +0,0000170 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024508: Read Request (UP), 2016-09-27 20:11:36,6090625 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 AF 0D 00 00 07 00 00 00 00 00 02   $M>.eØ..........
+ C9                                                …
+
+024509: I/O Request (DOWN), 2016-09-27 20:11:36,6091240 +0,0000615 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024512: Write Request (DOWN), 2016-09-27 20:11:36,6522360 +0,0430855 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024518: I/O Request (UP), 2016-09-27 20:11:36,6673182 +0,0072139 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024520: I/O Request (UP), 2016-09-27 20:11:36,6673694 +0,0000141 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024522: Read Request (UP), 2016-09-27 20:11:36,6673937 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B4 0D 00 00 07 00 00 00 00 00 02 D2 24 4D 3E 07   ¥..........“$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024523: I/O Request (DOWN), 2016-09-27 20:11:36,6674558 +0,0000621 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024526: Write Request (DOWN), 2016-09-27 20:11:36,7555390 +0,0880614 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024532: I/O Request (UP), 2016-09-27 20:11:36,7679052 +0,0026201 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024534: I/O Request (UP), 2016-09-27 20:11:36,7679506 +0,0000131 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024536: Read Request (UP), 2016-09-27 20:11:36,7679736 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B9 0D 00 00 07 00 00 00 00 00 02 DF               π..........ﬂ
+
+024537: I/O Request (DOWN), 2016-09-27 20:11:36,7680533 +0,0000797 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024540: I/O Request (UP), 2016-09-27 20:11:36,7699109 +0,0018352 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024542: I/O Request (UP), 2016-09-27 20:11:36,7699794 +0,0000093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024544: Read Request (UP), 2016-09-27 20:11:36,7700002 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024545: I/O Request (DOWN), 2016-09-27 20:11:36,7701454 +0,0001452 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024548: Write Request (DOWN), 2016-09-27 20:11:36,8560671 +0,0858964 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xc bytes
+ 24 4D 3C 00 65 65 24 4D 3C 00 74 74               $M<.ee$M<.tt
+
+024552: I/O Request (UP), 2016-09-27 20:11:36,8613415 +0,0012467 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024554: I/O Request (UP), 2016-09-27 20:11:36,8613863 +0,0000141 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024556: Read Request (UP), 2016-09-27 20:11:36,8614100 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B5 0D 00 00 07 00 00 00 00 00 02   $M>.eµ..........
+ D3                                                ”
+
+024557: I/O Request (DOWN), 2016-09-27 20:11:36,8614590 +0,0000490 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024560: Write Request (DOWN), 2016-09-27 20:11:36,8616871 +0,0002073 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+024562: I/O Request (UP), 2016-09-27 20:11:36,8725634 +0,0102248 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024564: I/O Request (UP), 2016-09-27 20:11:36,8725989 +0,0000141 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=104
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024566: Read Request (UP), 2016-09-27 20:11:36,8726216 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x68 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 07 6E   ;FAILSAFE;.$M>.n
+ 00 00 00 00 00 00 00 69                           .......i
+
+024567: I/O Request (DOWN), 2016-09-27 20:11:36,8726792 +0,0000576 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024570: Write Request (DOWN), 2016-09-27 20:11:36,9678378 +0,0951362 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024576: I/O Request (UP), 2016-09-27 20:11:36,9783796 +0,0010534 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024578: I/O Request (UP), 2016-09-27 20:11:36,9784321 +0,0000147 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024580: Read Request (UP), 2016-09-27 20:11:36,9784606 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B8 0D 00 00 07 00 00 00 00 00 02 DE               ∏..........ﬁ
+
+024581: I/O Request (DOWN), 2016-09-27 20:11:36,9785223 +0,0000617 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024584: I/O Request (UP), 2016-09-27 20:11:36,9804013 +0,0018537 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024586: I/O Request (UP), 2016-09-27 20:11:36,9804916 +0,0000154 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024588: Read Request (UP), 2016-09-27 20:11:36,9805204 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024589: I/O Request (DOWN), 2016-09-27 20:11:36,9806160 +0,0000956 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024592: Write Request (DOWN), 2016-09-27 20:11:37,0708218 +0,0901763 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024598: I/O Request (UP), 2016-09-27 20:11:37,0834250 +0,0012083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024600: I/O Request (UP), 2016-09-27 20:11:37,0834689 +0,0000170 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024602: Read Request (UP), 2016-09-27 20:11:37,0834996 +0,0000051 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B4 0D 00 00 07 00 00 00 00 00 02 D2               ¥..........“
+
+024603: I/O Request (DOWN), 2016-09-27 20:11:37,0835709 +0,0000713 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024606: I/O Request (UP), 2016-09-27 20:11:37,0855085 +0,0019104 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024608: I/O Request (UP), 2016-09-27 20:11:37,0855910 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024610: Read Request (UP), 2016-09-27 20:11:37,0856166 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024611: I/O Request (DOWN), 2016-09-27 20:11:37,0856838 +0,0000672 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024614: Write Request (DOWN), 2016-09-27 20:11:37,1052709 +0,0195602 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024616: I/O Request (UP), 2016-09-27 20:11:37,1103879 +0,0049582 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024618: I/O Request (UP), 2016-09-27 20:11:37,1104401 +0,0000163 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024620: Read Request (UP), 2016-09-27 20:11:37,1104683 +0,0000039 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 A9 0D 00 00 07 00 00 00 00 00 02   $M>.e©..........
+ CF                                                œ
+
+024621: I/O Request (DOWN), 2016-09-27 20:11:37,1105316 +0,0000633 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024624: Write Request (DOWN), 2016-09-27 20:11:37,1841879 +0,0736307 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024630: I/O Request (UP), 2016-09-27 20:11:37,1967128 +0,0047759 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024632: I/O Request (UP), 2016-09-27 20:11:37,1967505 +0,0000137 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024634: Read Request (UP), 2016-09-27 20:11:37,1967739 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B0 0D 00 00 07 00 00 00 00 00 02 D6 24 4D 3E 07   ∞..........÷$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024635: I/O Request (DOWN), 2016-09-27 20:11:37,1968321 +0,0000582 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024638: Write Request (DOWN), 2016-09-27 20:11:37,2893793 +0,0925244 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024644: I/O Request (UP), 2016-09-27 20:11:37,3007368 +0,0018765 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024646: I/O Request (UP), 2016-09-27 20:11:37,3007931 +0,0000163 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024648: Read Request (UP), 2016-09-27 20:11:37,3008219 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B3 0D 00 00 07 00 00 00 00 00 02 D5               ≥..........’
+
+024649: I/O Request (DOWN), 2016-09-27 20:11:37,3008872 +0,0000653 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024652: I/O Request (UP), 2016-09-27 20:11:37,3028974 +0,0019837 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024654: I/O Request (UP), 2016-09-27 20:11:37,3029556 +0,0000122 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024656: Read Request (UP), 2016-09-27 20:11:37,3029790 +0,0000036 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024657: I/O Request (DOWN), 2016-09-27 20:11:37,3030385 +0,0000595 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024660: Write Request (DOWN), 2016-09-27 20:11:37,3555465 +0,0524840 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024662: I/O Request (UP), 2016-09-27 20:11:37,3598264 +0,0041280 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024664: I/O Request (UP), 2016-09-27 20:11:37,3598705 +0,0000131 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024666: Read Request (UP), 2016-09-27 20:11:37,3598926 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B0 0D 00 00 07 00 00 00 00 00 02   $M>.e∞..........
+ D6                                                ÷
+
+024667: I/O Request (DOWN), 2016-09-27 20:11:37,3599416 +0,0000490 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024670: Write Request (DOWN), 2016-09-27 20:11:37,3918839 +0,0319219 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024676: I/O Request (UP), 2016-09-27 20:11:37,4023205 +0,0025043 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024678: I/O Request (UP), 2016-09-27 20:11:37,4023422 +0,0000083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024680: Read Request (UP), 2016-09-27 20:11:37,4023570 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AD 0D 00 00 07 00 00 00 00 00 02 CB               ≠..........À
+
+024681: I/O Request (DOWN), 2016-09-27 20:11:37,4023899 +0,0000329 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024684: I/O Request (UP), 2016-09-27 20:11:37,4044414 +0,0020377 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024686: I/O Request (UP), 2016-09-27 20:11:37,4044567 +0,0000057 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024688: Read Request (UP), 2016-09-27 20:11:37,4044673 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024689: I/O Request (DOWN), 2016-09-27 20:11:37,4044945 +0,0000272 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024692: Write Request (DOWN), 2016-09-27 20:11:37,5001855 +0,0956808 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024698: I/O Request (UP), 2016-09-27 20:11:37,5112112 +0,0014447 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024700: I/O Request (UP), 2016-09-27 20:11:37,5113424 +0,0000134 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024702: Read Request (UP), 2016-09-27 20:11:37,5113693 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B8 0D 00 00 07 00 00 00 00 00 02 DE               ∏..........ﬁ
+
+024703: I/O Request (DOWN), 2016-09-27 20:11:37,5115383 +0,0001690 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024706: I/O Request (UP), 2016-09-27 20:11:37,5133001 +0,0017324 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024708: I/O Request (UP), 2016-09-27 20:11:37,5133545 +0,0000150 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024710: Read Request (UP), 2016-09-27 20:11:37,5133811 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024711: I/O Request (DOWN), 2016-09-27 20:11:37,5134387 +0,0000576 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024714: Write Request (DOWN), 2016-09-27 20:11:37,6174480 +0,1039843 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024720: I/O Request (UP), 2016-09-27 20:11:37,6316988 +0,0044501 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024722: I/O Request (UP), 2016-09-27 20:11:37,6317558 +0,0000163 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024724: Read Request (UP), 2016-09-27 20:11:37,6317856 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B1 0D 00 00 07 00 00 00 00 00 02 D7 24 4D 3E 07   ±..........◊$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024725: I/O Request (DOWN), 2016-09-27 20:11:37,6318489 +0,0000633 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024728: Write Request (DOWN), 2016-09-27 20:11:37,7339053 +0,1020298 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xc bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65               $M<.tt$M<.ee
+
+024732: I/O Request (UP), 2016-09-27 20:11:37,7462867 +0,0100017 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024734: I/O Request (UP), 2016-09-27 20:11:37,7463463 +0,0000192 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024736: Read Request (UP), 2016-09-27 20:11:37,7463779 +0,0000057 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B0 0D 00 00 07 00 00 00 00 00 02 D6               ∞..........÷
+
+024737: I/O Request (DOWN), 2016-09-27 20:11:37,7464496 +0,0000717 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024740: Write Request (DOWN), 2016-09-27 20:11:37,7565761 +0,0100980 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+024742: I/O Request (UP), 2016-09-27 20:11:37,7588631 +0,0021308 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024744: I/O Request (UP), 2016-09-27 20:11:37,7588993 +0,0000160 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024746: Read Request (UP), 2016-09-27 20:11:37,7589255 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+024747: I/O Request (DOWN), 2016-09-27 20:11:37,7589806 +0,0000551 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024750: Write Request (DOWN), 2016-09-27 20:11:37,7591098 +0,0001030 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6F 6F                                 $M<.oo
+
+024752: I/O Request (UP), 2016-09-27 20:11:37,7627363 +0,0028639 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024754: I/O Request (UP), 2016-09-27 20:11:37,7627872 +0,0000141 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024756: Read Request (UP), 2016-09-27 20:11:37,7628141 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 6F 85 41 00 00 00 00 32 00 DC 05 00   $M>.oÖA....2.‹..
+ 4B                                                K
+
+024757: I/O Request (DOWN), 2016-09-27 20:11:37,7628672 +0,0000531 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024760: Write Request (DOWN), 2016-09-27 20:11:37,7682943 +0,0054028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 72 72                                 $M<.rr
+
+024762: I/O Request (UP), 2016-09-27 20:11:37,7742394 +0,0058264 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024764: I/O Request (UP), 2016-09-27 20:11:37,7742762 +0,0000096 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=28
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024766: Read Request (UP), 2016-09-27 20:11:37,7742929 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x1c bytes
+Status: 0x00000000
+ 24 4D 3E 16 72 DC 05 7E 04 3A 07 E8 03 E8 03 00   $M>.r‹.~.:.Ë.Ë..
+ 00 00 00 00 00 00 00 6E 21 2B 23 BD               .......n!+#Ω
+
+024767: I/O Request (DOWN), 2016-09-27 20:11:37,7743303 +0,0000374 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024770: Write Request (DOWN), 2016-09-27 20:11:37,7756922 +0,0013469 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024772: I/O Request (UP), 2016-09-27 20:11:37,7807030 +0,0048940 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024774: I/O Request (UP), 2016-09-27 20:11:37,7807324 +0,0000061 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024776: Read Request (UP), 2016-09-27 20:11:37,7807446 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024777: I/O Request (DOWN), 2016-09-27 20:11:37,7807727 +0,0000281 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024780: Write Request (DOWN), 2016-09-27 20:11:37,7820808 +0,0012969 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 40 40                                 $M<.@@
+
+024782: I/O Request (UP), 2016-09-27 20:11:37,7870193 +0,0048332 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024784: I/O Request (UP), 2016-09-27 20:11:37,7870529 +0,0000090 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=14
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024786: Read Request (UP), 2016-09-27 20:11:37,7870670 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xe bytes
+Status: 0x00000000
+ 24 4D 3E 08 40 00 01 03 02 04 05 06 07 48         $M>.@........H
+
+024787: I/O Request (DOWN), 2016-09-27 20:11:37,7870990 +0,0000320 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024790: Write Request (DOWN), 2016-09-27 20:11:37,7883575 +0,0012454 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 42 42                                 $M<.BB
+
+024792: I/O Request (UP), 2016-09-27 20:11:37,7912189 +0,0027545 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024794: I/O Request (UP), 2016-09-27 20:11:37,7912474 +0,0000058 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024796: Read Request (UP), 2016-09-27 20:11:37,7912592 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 42 03 92 25 00 00 00 00 00 00 00 00   $M>.B.í%........
+ 00 90 01 00 00 77                                 .ê...w
+
+024797: I/O Request (DOWN), 2016-09-27 20:11:37,7912877 +0,0000285 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024800: Write Request (DOWN), 2016-09-27 20:11:37,7927472 +0,0014483 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 7C 7C                                 $M<.||
+
+024802: I/O Request (UP), 2016-09-27 20:11:37,7975221 +0,0046360 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024804: I/O Request (UP), 2016-09-27 20:11:37,7975541 +0,0000073 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=14
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024806: Read Request (UP), 2016-09-27 20:11:37,7975676 +0,0000020 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xe bytes
+Status: 0x00000000
+ 24 4D 3E 08 7C 7E 05 EA 05 B4 05 32 00 63         $M>.|~.Í.¥.2.c
+
+024807: I/O Request (DOWN), 2016-09-27 20:11:37,7975980 +0,0000304 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024810: Write Request (DOWN), 2016-09-27 20:11:37,8215750 +0,0239649 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024812: I/O Request (UP), 2016-09-27 20:11:37,8258117 +0,0041541 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024814: I/O Request (UP), 2016-09-27 20:11:37,8258373 +0,0000057 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024816: Read Request (UP), 2016-09-27 20:11:37,8258476 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B0 0D 00 00 07 00 00 00 00 00 02   $M>.e∞..........
+ D6                                                ÷
+
+024817: I/O Request (DOWN), 2016-09-27 20:11:37,8258709 +0,0000233 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024820: Write Request (DOWN), 2016-09-27 20:11:37,8300212 +0,0041419 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024822: I/O Request (UP), 2016-09-27 20:11:37,8332727 +0,0031775 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024824: I/O Request (UP), 2016-09-27 20:11:37,8333034 +0,0000086 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024826: Read Request (UP), 2016-09-27 20:11:37,8333153 +0,0000020 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024827: I/O Request (DOWN), 2016-09-27 20:11:37,8333457 +0,0000304 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024830: Write Request (DOWN), 2016-09-27 20:11:37,8402857 +0,0069301 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024836: I/O Request (UP), 2016-09-27 20:11:37,8524988 +0,0098029 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024838: I/O Request (UP), 2016-09-27 20:11:37,8525251 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024840: Read Request (UP), 2016-09-27 20:11:37,8525347 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B3 0D 00 00 07 00 00 00 00 00 02 D5 24 4D 3E 07   ≥..........’$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024841: I/O Request (DOWN), 2016-09-27 20:11:37,8525600 +0,0000253 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024844: Write Request (DOWN), 2016-09-27 20:11:37,8789341 +0,0263665 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024846: I/O Request (UP), 2016-09-27 20:11:37,8823244 +0,0033122 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024848: I/O Request (UP), 2016-09-27 20:11:37,8823449 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024850: Read Request (UP), 2016-09-27 20:11:37,8823519 +0,0000009 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024851: I/O Request (DOWN), 2016-09-27 20:11:37,8823689 +0,0000170 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024854: Write Request (DOWN), 2016-09-27 20:11:37,9288863 +0,0465120 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024856: I/O Request (UP), 2016-09-27 20:11:37,9348945 +0,0059237 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024858: I/O Request (UP), 2016-09-27 20:11:37,9349140 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024860: Read Request (UP), 2016-09-27 20:11:37,9349207 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024861: I/O Request (DOWN), 2016-09-27 20:11:37,9349364 +0,0000157 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024864: Write Request (DOWN), 2016-09-27 20:11:37,9424143 +0,0074721 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024870: I/O Request (UP), 2016-09-27 20:11:37,9541747 +0,0073413 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024872: I/O Request (UP), 2016-09-27 20:11:37,9542477 +0,0000093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024874: Read Request (UP), 2016-09-27 20:11:37,9542681 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B0 0D 00 00 07 00 00 00 00 00 02 D6 24 4D 3E 07   ∞..........÷$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024875: I/O Request (DOWN), 2016-09-27 20:11:37,9543273 +0,0000592 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024878: Write Request (DOWN), 2016-09-27 20:11:37,9789854 +0,0246373 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024880: I/O Request (UP), 2016-09-27 20:11:37,9840569 +0,0049659 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024882: I/O Request (UP), 2016-09-27 20:11:37,9840835 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024884: Read Request (UP), 2016-09-27 20:11:37,9840931 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024885: I/O Request (DOWN), 2016-09-27 20:11:37,9841174 +0,0000243 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024888: Write Request (DOWN), 2016-09-27 20:11:38,0290236 +0,0448975 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024890: I/O Request (UP), 2016-09-27 20:11:38,0331243 +0,0040018 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024892: I/O Request (UP), 2016-09-27 20:11:38,0331547 +0,0000051 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024894: Read Request (UP), 2016-09-27 20:11:38,0331637 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024895: I/O Request (DOWN), 2016-09-27 20:11:38,0331896 +0,0000259 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024898: Write Request (DOWN), 2016-09-27 20:11:38,0451142 +0,0119153 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024904: I/O Request (UP), 2016-09-27 20:11:38,0593763 +0,0121700 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024906: I/O Request (UP), 2016-09-27 20:11:38,0594041 +0,0000070 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024908: Read Request (UP), 2016-09-27 20:11:38,0594156 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B2 0D 00 00 07 00 00 00 00 00 02 D4 24 4D 3E 07   ≤..........‘$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024909: I/O Request (DOWN), 2016-09-27 20:11:38,0594403 +0,0000247 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024912: Write Request (DOWN), 2016-09-27 20:11:38,0729984 +0,0135492 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+024914: I/O Request (UP), 2016-09-27 20:11:38,0782066 +0,0051036 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024916: I/O Request (UP), 2016-09-27 20:11:38,0782302 +0,0000051 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024918: Read Request (UP), 2016-09-27 20:11:38,0782392 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 AA 0D 00 00 07 00 00 00 00 00 02   $M>.e™..........
+ CC                                                Ã
+
+024919: I/O Request (DOWN), 2016-09-27 20:11:38,0782597 +0,0000205 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024922: Write Request (DOWN), 2016-09-27 20:11:38,0792606 +0,0009929 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024924: I/O Request (UP), 2016-09-27 20:11:38,0821831 +0,0028418 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024926: I/O Request (UP), 2016-09-27 20:11:38,0822036 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024928: Read Request (UP), 2016-09-27 20:11:38,0822110 +0,0000010 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024929: I/O Request (DOWN), 2016-09-27 20:11:38,0822282 +0,0000172 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024932: Write Request (DOWN), 2016-09-27 20:11:38,1294771 +0,0472421 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024934: I/O Request (UP), 2016-09-27 20:11:38,1347753 +0,0051555 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024936: I/O Request (UP), 2016-09-27 20:11:38,1348175 +0,0000122 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024938: Read Request (UP), 2016-09-27 20:11:38,1348373 +0,0000028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024939: I/O Request (DOWN), 2016-09-27 20:11:38,1348834 +0,0000461 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024942: Write Request (DOWN), 2016-09-27 20:11:38,1483263 +0,0134243 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024948: I/O Request (UP), 2016-09-27 20:11:38,1610304 +0,0052466 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024950: I/O Request (UP), 2016-09-27 20:11:38,1610624 +0,0000128 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024952: Read Request (UP), 2016-09-27 20:11:38,1610828 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B9 0D 00 00 07 00 00 00 00 00 02 DF 24 4D 3E 07   π..........ﬂ$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024953: I/O Request (DOWN), 2016-09-27 20:11:38,1611328 +0,0000500 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024956: Write Request (DOWN), 2016-09-27 20:11:38,1790639 +0,0179113 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024958: I/O Request (UP), 2016-09-27 20:11:38,1838692 +0,0047215 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024960: I/O Request (UP), 2016-09-27 20:11:38,1838987 +0,0000074 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024962: Read Request (UP), 2016-09-27 20:11:38,1839115 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024963: I/O Request (DOWN), 2016-09-27 20:11:38,1839387 +0,0000272 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024966: Write Request (DOWN), 2016-09-27 20:11:38,2291268 +0,0451769 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024968: I/O Request (UP), 2016-09-27 20:11:38,2329178 +0,0036809 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024970: I/O Request (UP), 2016-09-27 20:11:38,2329462 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024972: Read Request (UP), 2016-09-27 20:11:38,2329574 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024973: I/O Request (DOWN), 2016-09-27 20:11:38,2329834 +0,0000260 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024976: Write Request (DOWN), 2016-09-27 20:11:38,2512674 +0,0182741 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+024982: I/O Request (UP), 2016-09-27 20:11:38,2662380 +0,0054680 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024984: I/O Request (UP), 2016-09-27 20:11:38,2662959 +0,0000173 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024986: Read Request (UP), 2016-09-27 20:11:38,2663257 +0,0000051 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B9 0D 00 00 07 00 00 00 00 00 02 DF 24 4D 3E 07   π..........ﬂ$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+024987: I/O Request (DOWN), 2016-09-27 20:11:38,2663958 +0,0000701 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+024990: Write Request (DOWN), 2016-09-27 20:11:38,2793049 +0,0128650 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+024992: I/O Request (UP), 2016-09-27 20:11:38,2854904 +0,0060265 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+024994: I/O Request (UP), 2016-09-27 20:11:38,2855313 +0,0000099 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+024996: Read Request (UP), 2016-09-27 20:11:38,2855496 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+024997: I/O Request (DOWN), 2016-09-27 20:11:38,2855921 +0,0000425 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025000: Write Request (DOWN), 2016-09-27 20:11:38,3232985 +0,0376897 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025002: I/O Request (UP), 2016-09-27 20:11:38,3278005 +0,0043913 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025004: I/O Request (UP), 2016-09-27 20:11:38,3278280 +0,0000105 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025006: Read Request (UP), 2016-09-27 20:11:38,3278466 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B4 0D 00 00 07 00 00 00 00 00 02   $M>.e¥..........
+ D2                                                “
+
+025007: I/O Request (DOWN), 2016-09-27 20:11:38,3278965 +0,0000499 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025010: Write Request (DOWN), 2016-09-27 20:11:38,3297739 +0,0018601 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025012: I/O Request (UP), 2016-09-27 20:11:38,3345837 +0,0046815 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025014: I/O Request (UP), 2016-09-27 20:11:38,3346192 +0,0000086 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025016: Read Request (UP), 2016-09-27 20:11:38,3346359 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025017: I/O Request (DOWN), 2016-09-27 20:11:38,3346736 +0,0000377 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025020: Write Request (DOWN), 2016-09-27 20:11:38,3561794 +0,0214911 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025026: I/O Request (UP), 2016-09-27 20:11:38,3678412 +0,0077492 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025028: I/O Request (UP), 2016-09-27 20:11:38,3678812 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025030: Read Request (UP), 2016-09-27 20:11:38,3679004 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AE 0D 00 00 07 00 00 00 00 00 02 C8 24 4D 3E 07   Æ..........»$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+025031: I/O Request (DOWN), 2016-09-27 20:11:38,3679462 +0,0000458 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025034: Write Request (DOWN), 2016-09-27 20:11:38,3793184 +0,0113549 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025036: I/O Request (UP), 2016-09-27 20:11:38,3838175 +0,0043525 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025038: I/O Request (UP), 2016-09-27 20:11:38,3838569 +0,0000106 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025040: Read Request (UP), 2016-09-27 20:11:38,3838754 +0,0000028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025041: I/O Request (DOWN), 2016-09-27 20:11:38,3839186 +0,0000432 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025044: Write Request (DOWN), 2016-09-27 20:11:38,4292476 +0,0453117 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025046: I/O Request (UP), 2016-09-27 20:11:38,4326667 +0,0033203 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025048: I/O Request (UP), 2016-09-27 20:11:38,4326939 +0,0000102 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025050: Read Request (UP), 2016-09-27 20:11:38,4327121 +0,0000028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025051: I/O Request (DOWN), 2016-09-27 20:11:38,4327544 +0,0000423 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025054: Write Request (DOWN), 2016-09-27 20:11:38,4585509 +0,0257799 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025060: I/O Request (UP), 2016-09-27 20:11:38,4729877 +0,0083217 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025062: I/O Request (UP), 2016-09-27 20:11:38,4730293 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025064: Read Request (UP), 2016-09-27 20:11:38,4730469 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B8 0D 00 00 07 00 00 00 00 00 02 DE 24 4D 3E 07   ∏..........ﬁ$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+025065: I/O Request (DOWN), 2016-09-27 20:11:38,4730889 +0,0000420 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025068: Write Request (DOWN), 2016-09-27 20:11:38,4793050 +0,0061998 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025070: I/O Request (UP), 2016-09-27 20:11:38,4852438 +0,0057887 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025072: I/O Request (UP), 2016-09-27 20:11:38,4852847 +0,0000105 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025074: Read Request (UP), 2016-09-27 20:11:38,4853023 +0,0000028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025075: I/O Request (DOWN), 2016-09-27 20:11:38,4853452 +0,0000429 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025078: Write Request (DOWN), 2016-09-27 20:11:38,5293849 +0,0440240 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025080: I/O Request (UP), 2016-09-27 20:11:38,5343288 +0,0048028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025082: I/O Request (UP), 2016-09-27 20:11:38,5343682 +0,0000103 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025084: Read Request (UP), 2016-09-27 20:11:38,5343858 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025085: I/O Request (DOWN), 2016-09-27 20:11:38,5344267 +0,0000409 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025088: Write Request (DOWN), 2016-09-27 20:11:38,5617762 +0,0273335 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025094: I/O Request (UP), 2016-09-27 20:11:38,5746559 +0,0082689 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025096: I/O Request (UP), 2016-09-27 20:11:38,5746943 +0,0000102 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025098: Read Request (UP), 2016-09-27 20:11:38,5747119 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B6 0D 00 00 07 00 00 00 00 00 02 D0 24 4D 3E 07   ∂..........–$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+025099: I/O Request (DOWN), 2016-09-27 20:11:38,5747519 +0,0000400 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025102: Write Request (DOWN), 2016-09-27 20:11:38,5791848 +0,0044182 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025104: I/O Request (UP), 2016-09-27 20:11:38,5837991 +0,0045010 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025106: I/O Request (UP), 2016-09-27 20:11:38,5838346 +0,0000083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025108: Read Request (UP), 2016-09-27 20:11:38,5838503 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025109: I/O Request (DOWN), 2016-09-27 20:11:38,5838890 +0,0000387 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025112: Write Request (DOWN), 2016-09-27 20:11:38,6297994 +0,0458963 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025114: I/O Request (UP), 2016-09-27 20:11:38,6361035 +0,0061400 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025116: I/O Request (UP), 2016-09-27 20:11:38,6361599 +0,0000160 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025118: Read Request (UP), 2016-09-27 20:11:38,6361880 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025119: I/O Request (DOWN), 2016-09-27 20:11:38,6362517 +0,0000637 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025122: Write Request (DOWN), 2016-09-27 20:11:38,6655112 +0,0292345 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025128: I/O Request (UP), 2016-09-27 20:11:38,6799887 +0,0060284 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025130: I/O Request (UP), 2016-09-27 20:11:38,6800901 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025132: Read Request (UP), 2016-09-27 20:11:38,6801112 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AA 0D 00 00 07 00 00 00 00 00 02 CC 24 4D 3E 07   ™..........Ã$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+025133: I/O Request (DOWN), 2016-09-27 20:11:38,6801659 +0,0000547 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025136: Write Request (DOWN), 2016-09-27 20:11:38,6807650 +0,0005779 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025138: I/O Request (UP), 2016-09-27 20:11:38,6851326 +0,0042547 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025140: I/O Request (UP), 2016-09-27 20:11:38,6851844 +0,0000134 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025142: Read Request (UP), 2016-09-27 20:11:38,6852074 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025143: I/O Request (DOWN), 2016-09-27 20:11:38,6852628 +0,0000554 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025146: Write Request (DOWN), 2016-09-27 20:11:38,7290266 +0,0437420 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025148: I/O Request (UP), 2016-09-27 20:11:38,7342045 +0,0050582 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025150: I/O Request (UP), 2016-09-27 20:11:38,7342384 +0,0000103 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025152: Read Request (UP), 2016-09-27 20:11:38,7342521 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025153: I/O Request (DOWN), 2016-09-27 20:11:38,7342854 +0,0000333 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025156: Write Request (DOWN), 2016-09-27 20:11:38,7672940 +0,0329964 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025164: I/O Request (UP), 2016-09-27 20:11:38,7839016 +0,0037957 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025166: I/O Request (UP), 2016-09-27 20:11:38,7839611 +0,0000166 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025168: Read Request (UP), 2016-09-27 20:11:38,7839906 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B6 0D 00 00 07 00 00 00 00 00 02 D0 24 4D 3E 07   ∂..........–$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025169: I/O Request (DOWN), 2016-09-27 20:11:38,7840510 +0,0000604 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025172: Write Request (DOWN), 2016-09-27 20:11:38,8231510 +0,0390747 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025174: I/O Request (UP), 2016-09-27 20:11:38,8283717 +0,0045542 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025176: I/O Request (UP), 2016-09-27 20:11:38,8284078 +0,0000089 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025178: Read Request (UP), 2016-09-27 20:11:38,8284226 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B5 0D 00 00 07 00 00 00 00 00 02   $M>.eµ..........
+ D3                                                ”
+
+025179: I/O Request (DOWN), 2016-09-27 20:11:38,8284587 +0,0000361 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025182: Write Request (DOWN), 2016-09-27 20:11:38,8290401 +0,0005679 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025184: I/O Request (UP), 2016-09-27 20:11:38,8323457 +0,0029715 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025186: I/O Request (UP), 2016-09-27 20:11:38,8323748 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025188: Read Request (UP), 2016-09-27 20:11:38,8323866 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025189: I/O Request (DOWN), 2016-09-27 20:11:38,8324167 +0,0000301 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025192: Write Request (DOWN), 2016-09-27 20:11:38,8690466 +0,0366187 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025200: I/O Request (UP), 2016-09-27 20:11:38,8850226 +0,0052261 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025202: I/O Request (UP), 2016-09-27 20:11:38,8850581 +0,0000089 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025204: Read Request (UP), 2016-09-27 20:11:38,8850744 +0,0000025 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AD 0D 00 00 07 00 00 00 00 00 02 CB 24 4D 3E 07   ≠..........À$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025205: I/O Request (DOWN), 2016-09-27 20:11:38,8851116 +0,0000372 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025208: Write Request (DOWN), 2016-09-27 20:11:38,9290610 +0,0439350 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025210: I/O Request (UP), 2016-09-27 20:11:38,9339790 +0,0047916 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025212: I/O Request (UP), 2016-09-27 20:11:38,9340142 +0,0000096 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025214: Read Request (UP), 2016-09-27 20:11:38,9340299 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025215: I/O Request (DOWN), 2016-09-27 20:11:38,9340670 +0,0000371 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025218: Write Request (DOWN), 2016-09-27 20:11:38,9709695 +0,0368888 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025226: I/O Request (UP), 2016-09-27 20:11:38,9866210 +0,0078459 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025228: I/O Request (UP), 2016-09-27 20:11:38,9866470 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025230: Read Request (UP), 2016-09-27 20:11:38,9866578 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B1 0D 00 00 07 00 00 00 00 00 02 D7 24 4D 3E 07   ±..........◊$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025231: I/O Request (DOWN), 2016-09-27 20:11:38,9867030 +0,0000452 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025234: Write Request (DOWN), 2016-09-27 20:11:39,0288467 +0,0421335 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025236: I/O Request (UP), 2016-09-27 20:11:39,0321650 +0,0032102 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025238: I/O Request (UP), 2016-09-27 20:11:39,0321906 +0,0000058 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025240: Read Request (UP), 2016-09-27 20:11:39,0322002 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025241: I/O Request (DOWN), 2016-09-27 20:11:39,0322226 +0,0000224 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025244: Write Request (DOWN), 2016-09-27 20:11:39,0729766 +0,0407450 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025252: I/O Request (UP), 2016-09-27 20:11:39,0883590 +0,0085461 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025254: I/O Request (UP), 2016-09-27 20:11:39,0884041 +0,0000128 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025256: Read Request (UP), 2016-09-27 20:11:39,0884252 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ A9 0D 00 00 07 00 00 00 00 00 02 CF 24 4D 3E 07   ©..........œ$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025257: I/O Request (DOWN), 2016-09-27 20:11:39,0884761 +0,0000509 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025260: Write Request (DOWN), 2016-09-27 20:11:39,1292263 +0,0407313 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025262: I/O Request (UP), 2016-09-27 20:11:39,1338668 +0,0044764 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025264: I/O Request (UP), 2016-09-27 20:11:39,1339097 +0,0000112 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025266: Read Request (UP), 2016-09-27 20:11:39,1339289 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025267: I/O Request (DOWN), 2016-09-27 20:11:39,1339734 +0,0000445 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025270: Write Request (DOWN), 2016-09-27 20:11:39,1756636 +0,0416733 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025278: I/O Request (UP), 2016-09-27 20:11:39,1900969 +0,0049711 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025280: I/O Request (UP), 2016-09-27 20:11:39,1901436 +0,0000137 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025282: Read Request (UP), 2016-09-27 20:11:39,1901660 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B6 0D 00 00 07 00 00 00 00 00 02 D0 24 4D 3E 07   ∂..........–$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025283: I/O Request (DOWN), 2016-09-27 20:11:39,1902166 +0,0000506 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025286: Write Request (DOWN), 2016-09-27 20:11:39,2289546 +0,0387175 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025288: I/O Request (UP), 2016-09-27 20:11:39,2320154 +0,0029580 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025290: I/O Request (UP), 2016-09-27 20:11:39,2320311 +0,0000061 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025292: Read Request (UP), 2016-09-27 20:11:39,2320410 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025293: I/O Request (DOWN), 2016-09-27 20:11:39,2320663 +0,0000253 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025296: Write Request (DOWN), 2016-09-27 20:11:39,2781225 +0,0460463 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025304: I/O Request (UP), 2016-09-27 20:11:39,2916822 +0,0083441 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025306: I/O Request (UP), 2016-09-27 20:11:39,2917114 +0,0000074 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025308: Read Request (UP), 2016-09-27 20:11:39,2917229 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B9 0D 00 00 07 00 00 00 00 00 02 DF 24 4D 3E 07   π..........ﬂ$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025309: I/O Request (DOWN), 2016-09-27 20:11:39,2917507 +0,0000278 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025312: Write Request (DOWN), 2016-09-27 20:11:39,3229411 +0,0311798 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025314: I/O Request (UP), 2016-09-27 20:11:39,3265608 +0,0035132 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025316: I/O Request (UP), 2016-09-27 20:11:39,3265896 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025318: Read Request (UP), 2016-09-27 20:11:39,3266012 +0,0000020 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 0C 0E 00 00 07 00 00 00 00 00 02   $M>.e...........
+ 69                                                i
+
+025319: I/O Request (DOWN), 2016-09-27 20:11:39,3266274 +0,0000262 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025322: Write Request (DOWN), 2016-09-27 20:11:39,3288837 +0,0022464 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025324: I/O Request (UP), 2016-09-27 20:11:39,3340317 +0,0050808 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025326: I/O Request (UP), 2016-09-27 20:11:39,3340618 +0,0000067 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025328: Read Request (UP), 2016-09-27 20:11:39,3340736 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025329: I/O Request (DOWN), 2016-09-27 20:11:39,3341021 +0,0000285 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025332: Write Request (DOWN), 2016-09-27 20:11:39,3558396 +0,0217269 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+ 24 4D 3C 0B CC 85 41 00 00 00 00 32 00 DC 05 00   $M<.ÃÖA....2.‹..
+ E8                                                Ë
+
+025334: I/O Request (UP), 2016-09-27 20:11:39,3607678 +0,0048354 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025336: I/O Request (UP), 2016-09-27 20:11:39,3607991 +0,0000076 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=6
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025338: Read Request (UP), 2016-09-27 20:11:39,3608123 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+Status: 0x00000000
+ 24 4D 3E 00 CC CC                                 $M>.ÃÃ
+
+025339: I/O Request (DOWN), 2016-09-27 20:11:39,3608398 +0,0000275 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025342: Write Request (DOWN), 2016-09-27 20:11:39,3641171 +0,0032655 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xe bytes
+ 24 4D 3C 08 41 00 01 03 02 04 05 06 07 49         $M<.A........I
+
+025344: I/O Request (UP), 2016-09-27 20:11:39,3678335 +0,0036156 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025346: I/O Request (UP), 2016-09-27 20:11:39,3678601 +0,0000058 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=6
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025348: Read Request (UP), 2016-09-27 20:11:39,3678707 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+Status: 0x00000000
+ 24 4D 3E 00 41 41                                 $M>.AA
+
+025349: I/O Request (DOWN), 2016-09-27 20:11:39,3678956 +0,0000249 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025352: Write Request (DOWN), 2016-09-27 20:11:39,3700514 +0,0021465 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x1c bytes
+ 24 4D 3C 16 CF DC 05 7E 04 3A 07 E8 03 E8 03 00   $M<.œ‹.~.:.Ë.Ë..
+ 00 00 00 00 00 00 00 6E 21 2B 23 00               .......n!+#.
+
+025354: I/O Request (UP), 2016-09-27 20:11:39,3749540 +0,0048053 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025356: I/O Request (UP), 2016-09-27 20:11:39,3749787 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=6
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025358: Read Request (UP), 2016-09-27 20:11:39,3749876 +0,0000009 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+Status: 0x00000000
+ 24 4D 3E 00 CF CF                                 $M>.œœ
+
+025359: I/O Request (DOWN), 2016-09-27 20:11:39,3750084 +0,0000208 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025362: Write Request (DOWN), 2016-09-27 20:11:39,3771089 +0,0020925 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x26 bytes
+ 24 4D 3C 08 D9 7E 05 EA 05 B4 05 32 00 C6 24 4D   $M<.Ÿ~.Í.¥.2.∆$M
+ 3C 00 69 69 24 4D 3C 00 74 74 24 4D 3C 00 65 65   <.ii$M<.tt$M<.ee
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+025371: I/O Request (UP), 2016-09-27 20:11:39,3819555 +0,0002784 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025374: I/O Request (UP), 2016-09-27 20:11:39,3819804 +0,0000054 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=6
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025376: Read Request (UP), 2016-09-27 20:11:39,3819894 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+Status: 0x00000000
+ 24 4D 3E 00 D9 D9                                 $M>.ŸŸ
+
+025377: I/O Request (DOWN), 2016-09-27 20:11:39,3820131 +0,0000237 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025380: Write Request (DOWN), 2016-09-27 20:11:39,3843321 +0,0023110 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 FA FA                                 $M<.˙˙
+
+025382: I/O Request (UP), 2016-09-27 20:11:39,3868389 +0,0024406 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025384: I/O Request (UP), 2016-09-27 20:11:39,3868622 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025386: Read Request (UP), 2016-09-27 20:11:39,3868712 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025387: I/O Request (DOWN), 2016-09-27 20:11:39,3868936 +0,0000224 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025390: I/O Request (UP), 2016-09-27 20:11:39,3991631 +0,0122612 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025392: I/O Request (UP), 2016-09-27 20:11:39,3992044 +0,0000061 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025394: Read Request (UP), 2016-09-27 20:11:39,3992169 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B2 0D 00 00 07 00 00 00 00 00 02 D4 24 4D 3E 07   ≤..........‘$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025395: I/O Request (DOWN), 2016-09-27 20:11:39,3992492 +0,0000323 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025398: Write Request (DOWN), 2016-09-27 20:11:39,4289010 +0,0296361 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 69 69 24 4D 3C 00 74 74 24 4D 3C 00   $M<.ii$M<.tt$M<.
+ 65 65 24 4D 3C 00 6E 6E                           ee$M<.nn
+
+025406: I/O Request (UP), 2016-09-27 20:11:39,5011657 +0,0188882 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025408: I/O Request (UP), 2016-09-27 20:11:39,5011871 +0,0000086 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=6
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025410: Read Request (UP), 2016-09-27 20:11:39,5011999 +0,0000022 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+Status: 0x00000000
+ 24 4D 3E 00 FA FA                                 $M>.˙˙
+
+025411: I/O Request (DOWN), 2016-09-27 20:11:39,5012422 +0,0000423 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025414: I/O Request (UP), 2016-09-27 20:11:39,5037784 +0,0025238 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025416: I/O Request (UP), 2016-09-27 20:11:39,5038066 +0,0000067 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025418: Read Request (UP), 2016-09-27 20:11:39,5038191 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025419: I/O Request (DOWN), 2016-09-27 20:11:39,5038472 +0,0000281 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025422: I/O Request (UP), 2016-09-27 20:11:39,5160198 +0,0121617 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025424: I/O Request (UP), 2016-09-27 20:11:39,5160649 +0,0000061 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025426: Read Request (UP), 2016-09-27 20:11:39,5160774 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ A9 0D 00 00 07 00 00 00 00 00 02 CF 24 4D 3E 07   ©..........œ$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025427: I/O Request (DOWN), 2016-09-27 20:11:39,5161113 +0,0000339 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025430: Write Request (DOWN), 2016-09-27 20:11:39,5289267 +0,0128033 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025432: I/O Request (UP), 2016-09-27 20:11:39,5317929 +0,0027744 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025434: I/O Request (UP), 2016-09-27 20:11:39,5318037 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025436: Read Request (UP), 2016-09-27 20:11:39,5318114 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025437: I/O Request (DOWN), 2016-09-27 20:11:39,5318281 +0,0000167 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025440: Write Request (DOWN), 2016-09-27 20:11:39,5727673 +0,0409332 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025442: I/O Request (UP), 2016-09-27 20:11:39,5769253 +0,0040671 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025444: I/O Request (UP), 2016-09-27 20:11:39,5769474 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025446: Read Request (UP), 2016-09-27 20:11:39,5769544 +0,0000012 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B6 0D 00 00 07 00 00 00 00 00 02   $M>.e∂..........
+ D0                                                –
+
+025447: I/O Request (DOWN), 2016-09-27 20:11:39,5769711 +0,0000167 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025450: Write Request (DOWN), 2016-09-27 20:11:39,5786786 +0,0017014 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 69 69 24 4D 3C 00 74 74 24 4D 3C 00   $M<.ii$M<.tt$M<.
+ 65 65 24 4D 3C 00 6E 6E                           ee$M<.nn
+
+025458: I/O Request (UP), 2016-09-27 20:11:39,5847552 +0,0010019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025460: I/O Request (UP), 2016-09-27 20:11:39,5847795 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025462: Read Request (UP), 2016-09-27 20:11:39,5847965 +0,0000109 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025463: I/O Request (DOWN), 2016-09-27 20:11:39,5848227 +0,0000262 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025466: I/O Request (UP), 2016-09-27 20:11:39,5965969 +0,0117684 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025468: I/O Request (UP), 2016-09-27 20:11:39,5966209 +0,0000058 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025470: Read Request (UP), 2016-09-27 20:11:39,5966289 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B4 0D 00 00 07 00 00 00 00 00 02 D2 24 4D 3E 07   ¥..........“$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025471: I/O Request (DOWN), 2016-09-27 20:11:39,5966490 +0,0000201 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025474: Write Request (DOWN), 2016-09-27 20:11:39,6287843 +0,0321282 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025476: I/O Request (UP), 2016-09-27 20:11:39,6338358 +0,0049638 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025478: I/O Request (UP), 2016-09-27 20:11:39,6338569 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025480: Read Request (UP), 2016-09-27 20:11:39,6338639 +0,0000009 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025481: I/O Request (DOWN), 2016-09-27 20:11:39,6338815 +0,0000176 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025484: Write Request (DOWN), 2016-09-27 20:11:39,6788780 +0,0449907 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 69 69 24 4D 3C 00 74 74 24 4D 3C 00   $M<.ii$M<.tt$M<.
+ 65 65                                             ee
+
+025489: I/O Request (UP), 2016-09-27 20:11:39,6839895 +0,0002342 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025491: I/O Request (UP), 2016-09-27 20:11:39,6840126 +0,0000045 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=6
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025494: Read Request (UP), 2016-09-27 20:11:39,6840212 +0,0000013 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025495: I/O Request (DOWN), 2016-09-27 20:11:39,6840462 +0,0000250 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025498: Write Request (DOWN), 2016-09-27 20:11:39,6861578 +0,0021030 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+025500: I/O Request (UP), 2016-09-27 20:11:39,6957963 +0,0095786 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025502: I/O Request (UP), 2016-09-27 20:11:39,6958213 +0,0000058 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025504: Read Request (UP), 2016-09-27 20:11:39,6958309 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ DD 0D 00 00 07 00 00 00 00 00 02 BB 24 4D 3E 07   ›..........ª$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025505: I/O Request (DOWN), 2016-09-27 20:11:39,6958555 +0,0000246 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025508: Write Request (DOWN), 2016-09-27 20:11:39,7287726 +0,0329088 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025510: I/O Request (UP), 2016-09-27 20:11:39,7323091 +0,0034489 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025512: I/O Request (UP), 2016-09-27 20:11:39,7323315 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025514: Read Request (UP), 2016-09-27 20:11:39,7323405 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025515: I/O Request (DOWN), 2016-09-27 20:11:39,7323603 +0,0000198 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025518: Write Request (DOWN), 2016-09-27 20:11:39,7796643 +0,0472966 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xc bytes
+ 24 4D 3C 00 69 69 24 4D 3C 00 74 74               $M<.ii$M<.tt
+
+025522: I/O Request (UP), 2016-09-27 20:11:39,7859924 +0,0010003 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025524: I/O Request (UP), 2016-09-27 20:11:39,7860484 +0,0000166 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025526: Read Request (UP), 2016-09-27 20:11:39,7860769 +0,0000038 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025527: I/O Request (DOWN), 2016-09-27 20:11:39,7861377 +0,0000608 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025530: Write Request (DOWN), 2016-09-27 20:11:39,7871156 +0,0009536 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025532: I/O Request (UP), 2016-09-27 20:11:39,7963343 +0,0090977 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025534: I/O Request (UP), 2016-09-27 20:11:39,7963909 +0,0000163 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025536: Read Request (UP), 2016-09-27 20:11:39,7964197 +0,0000048 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B5 0D 00 00 07 00 00 00 00 00 02 D3               µ..........”
+
+025537: I/O Request (DOWN), 2016-09-27 20:11:39,7964876 +0,0000679 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025540: Write Request (DOWN), 2016-09-27 20:11:39,8011604 +0,0046466 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 6E 6E                                 $M<.nn
+
+025542: I/O Request (UP), 2016-09-27 20:11:39,8056432 +0,0043576 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025544: I/O Request (UP), 2016-09-27 20:11:39,8056890 +0,0000128 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025546: Read Request (UP), 2016-09-27 20:11:39,8057127 +0,0000036 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+025547: I/O Request (DOWN), 2016-09-27 20:11:39,8057677 +0,0000550 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025550: Write Request (DOWN), 2016-09-27 20:11:39,8235599 +0,0177711 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025552: I/O Request (UP), 2016-09-27 20:11:39,8270744 +0,0032681 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025554: I/O Request (UP), 2016-09-27 20:11:39,8271189 +0,0000122 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025556: Read Request (UP), 2016-09-27 20:11:39,8271403 +0,0000028 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 AD 0D 00 00 07 00 00 00 00 00 02   $M>.e≠..........
+ CB                                                À
+
+025557: I/O Request (DOWN), 2016-09-27 20:11:39,8271874 +0,0000471 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025560: Write Request (DOWN), 2016-09-27 20:11:39,8311275 +0,0039209 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025562: I/O Request (UP), 2016-09-27 20:11:39,8345773 +0,0027897 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025564: I/O Request (UP), 2016-09-27 20:11:39,8346263 +0,0000132 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025566: Read Request (UP), 2016-09-27 20:11:39,8346493 +0,0000035 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025567: I/O Request (DOWN), 2016-09-27 20:11:39,8347034 +0,0000541 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025570: Write Request (DOWN), 2016-09-27 20:11:39,8790845 +0,0443597 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025572: I/O Request (UP), 2016-09-27 20:11:39,8837961 +0,0040099 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025574: I/O Request (UP), 2016-09-27 20:11:39,8838290 +0,0000080 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025576: Read Request (UP), 2016-09-27 20:11:39,8838425 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025577: I/O Request (DOWN), 2016-09-27 20:11:39,8838754 +0,0000329 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025580: Write Request (DOWN), 2016-09-27 20:11:39,8975759 +0,0136883 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025586: I/O Request (UP), 2016-09-27 20:11:39,9096742 +0,0011110 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025588: I/O Request (UP), 2016-09-27 20:11:39,9097306 +0,0000154 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=108
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025590: Read Request (UP), 2016-09-27 20:11:39,9097590 +0,0000041 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6c bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B5 0D 00 00 07 00 00 00 00 00 02 D3               µ..........”
+
+025591: I/O Request (DOWN), 2016-09-27 20:11:39,9098227 +0,0000637 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025594: I/O Request (UP), 2016-09-27 20:11:39,9117763 +0,0019277 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025596: I/O Request (UP), 2016-09-27 20:11:39,9118233 +0,0000122 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=13
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025598: Read Request (UP), 2016-09-27 20:11:39,9118451 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xd bytes
+Status: 0x00000000
+ 24 4D 3E 07 6E 00 00 00 00 00 00 00 69            $M>.n.......i
+
+025599: I/O Request (DOWN), 2016-09-27 20:11:39,9118953 +0,0000502 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025602: Write Request (DOWN), 2016-09-27 20:11:39,9291122 +0,0171958 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025604: I/O Request (UP), 2016-09-27 20:11:39,9331550 +0,0039110 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025606: I/O Request (UP), 2016-09-27 20:11:39,9331912 +0,0000093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025608: Read Request (UP), 2016-09-27 20:11:39,9332075 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025609: I/O Request (DOWN), 2016-09-27 20:11:39,9332446 +0,0000371 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025612: Write Request (DOWN), 2016-09-27 20:11:39,9789540 +0,0456947 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025614: I/O Request (UP), 2016-09-27 20:11:39,9825437 +0,0034931 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025616: I/O Request (UP), 2016-09-27 20:11:39,9825926 +0,0000070 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025618: Read Request (UP), 2016-09-27 20:11:39,9826074 +0,0000023 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025619: I/O Request (DOWN), 2016-09-27 20:11:39,9826454 +0,0000380 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025622: Write Request (DOWN), 2016-09-27 20:11:40,0003375 +0,0176773 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025628: I/O Request (UP), 2016-09-27 20:11:40,0123315 +0,0065080 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025630: I/O Request (UP), 2016-09-27 20:11:40,0123584 +0,0000064 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025632: Read Request (UP), 2016-09-27 20:11:40,0123690 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B2 0D 00 00 07 00 00 00 00 00 02 D4 24 4D 3E 07   ≤..........‘$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025633: I/O Request (DOWN), 2016-09-27 20:11:40,0123942 +0,0000252 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025636: Write Request (DOWN), 2016-09-27 20:11:40,0288825 +0,0164790 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025638: I/O Request (UP), 2016-09-27 20:11:40,0318229 +0,0028386 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025640: I/O Request (UP), 2016-09-27 20:11:40,0318479 +0,0000051 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025642: Read Request (UP), 2016-09-27 20:11:40,0318572 +0,0000016 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025643: I/O Request (DOWN), 2016-09-27 20:11:40,0318793 +0,0000221 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025646: Write Request (DOWN), 2016-09-27 20:11:40,0853303 +0,0534424 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0xc bytes
+ 24 4D 3C 00 65 65 24 4D 3C 00 69 69               $M<.ee$M<.ii
+
+025649: I/O Request (UP), 2016-09-27 20:11:40,0878144 +0,0004656 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025652: I/O Request (UP), 2016-09-27 20:11:40,0878656 +0,0000125 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025654: Read Request (UP), 2016-09-27 20:11:40,0878947 +0,0000039 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 B2 0D 00 00 07 00 00 00 00 00 02   $M>.e≤..........
+ D4                                                ‘
+
+025655: I/O Request (DOWN), 2016-09-27 20:11:40,0879664 +0,0000717 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025658: I/O Request (UP), 2016-09-27 20:11:40,0916540 +0,0036620 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025660: I/O Request (UP), 2016-09-27 20:11:40,0916965 +0,0000105 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025662: Read Request (UP), 2016-09-27 20:11:40,0917167 +0,0000029 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025663: I/O Request (DOWN), 2016-09-27 20:11:40,0917666 +0,0000499 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025666: Write Request (DOWN), 2016-09-27 20:11:40,1053689 +0,0135818 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025672: I/O Request (UP), 2016-09-27 20:11:40,1180982 +0,0096507 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025674: I/O Request (UP), 2016-09-27 20:11:40,1181395 +0,0000093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025676: Read Request (UP), 2016-09-27 20:11:40,1181558 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B6 0D 00 00 07 00 00 00 00 00 02 D0 24 4D 3E 07   ∂..........–$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025677: I/O Request (DOWN), 2016-09-27 20:11:40,1181987 +0,0000429 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025680: Write Request (DOWN), 2016-09-27 20:11:40,1288877 +0,0106743 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025682: I/O Request (UP), 2016-09-27 20:11:40,1339577 +0,0049487 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025684: I/O Request (UP), 2016-09-27 20:11:40,1340073 +0,0000071 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025686: Read Request (UP), 2016-09-27 20:11:40,1340220 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025687: I/O Request (DOWN), 2016-09-27 20:11:40,1340617 +0,0000397 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025690: Write Request (DOWN), 2016-09-27 20:11:40,1789122 +0,0448336 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025692: I/O Request (UP), 2016-09-27 20:11:40,1837825 +0,0047368 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025694: I/O Request (UP), 2016-09-27 20:11:40,1838183 +0,0000089 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025696: Read Request (UP), 2016-09-27 20:11:40,1838334 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025697: I/O Request (DOWN), 2016-09-27 20:11:40,1838686 +0,0000352 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025700: Write Request (DOWN), 2016-09-27 20:11:40,2082658 +0,0243835 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025706: I/O Request (UP), 2016-09-27 20:11:40,2202096 +0,0077144 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025708: I/O Request (UP), 2016-09-27 20:11:40,2202499 +0,0000109 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025710: Read Request (UP), 2016-09-27 20:11:40,2202681 +0,0000032 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ A5 0D 00 00 07 00 00 00 00 00 02 C3 24 4D 3E 07   •..........√$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025711: I/O Request (DOWN), 2016-09-27 20:11:40,2203152 +0,0000471 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025714: Write Request (DOWN), 2016-09-27 20:11:40,2287422 +0,0084117 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025716: I/O Request (UP), 2016-09-27 20:11:40,2325894 +0,0037416 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025718: I/O Request (UP), 2016-09-27 20:11:40,2326352 +0,0000070 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025720: Read Request (UP), 2016-09-27 20:11:40,2326496 +0,0000022 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025721: I/O Request (DOWN), 2016-09-27 20:11:40,2326870 +0,0000374 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025724: Write Request (DOWN), 2016-09-27 20:11:40,2795011 +0,0467997 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025726: I/O Request (UP), 2016-09-27 20:11:40,2854654 +0,0058143 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025728: I/O Request (UP), 2016-09-27 20:11:40,2855499 +0,0000125 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025730: Read Request (UP), 2016-09-27 20:11:40,2855768 +0,0000042 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025731: I/O Request (DOWN), 2016-09-27 20:11:40,2856501 +0,0000733 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025734: Write Request (DOWN), 2016-09-27 20:11:40,3110041 +0,0253252 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025740: I/O Request (UP), 2016-09-27 20:11:40,3259340 +0,0126577 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025742: I/O Request (UP), 2016-09-27 20:11:40,3259692 +0,0000093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025744: Read Request (UP), 2016-09-27 20:11:40,3259836 +0,0000026 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ AA 0D 00 00 07 00 00 00 00 00 02 CC 24 4D 3E 07   ™..........Ã$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025745: I/O Request (DOWN), 2016-09-27 20:11:40,3260172 +0,0000336 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025748: Write Request (DOWN), 2016-09-27 20:11:40,3288139 +0,0027833 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025750: I/O Request (UP), 2016-09-27 20:11:40,3346800 +0,0057579 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025752: I/O Request (UP), 2016-09-27 20:11:40,3347127 +0,0000074 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025754: Read Request (UP), 2016-09-27 20:11:40,3347264 +0,0000022 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025755: I/O Request (DOWN), 2016-09-27 20:11:40,3347597 +0,0000333 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025758: Write Request (DOWN), 2016-09-27 20:11:40,3788451 +0,0440732 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025760: I/O Request (UP), 2016-09-27 20:11:40,3838290 +0,0048677 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025762: I/O Request (UP), 2016-09-27 20:11:40,3838623 +0,0000083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025764: Read Request (UP), 2016-09-27 20:11:40,3838761 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025765: I/O Request (DOWN), 2016-09-27 20:11:40,3839081 +0,0000320 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025768: Write Request (DOWN), 2016-09-27 20:11:40,4130130 +0,0290924 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x12 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E                                             nn
+
+025774: I/O Request (UP), 2016-09-27 20:11:40,4276034 +0,0089674 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025776: I/O Request (UP), 2016-09-27 20:11:40,4276370 +0,0000086 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025778: Read Request (UP), 2016-09-27 20:11:40,4276508 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ A5 0D 00 00 07 00 00 00 00 00 02 C3 24 4D 3E 07   •..........√$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025779: I/O Request (DOWN), 2016-09-27 20:11:40,4276838 +0,0000330 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025782: Write Request (DOWN), 2016-09-27 20:11:40,4290482 +0,0013510 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025784: I/O Request (UP), 2016-09-27 20:11:40,4328548 +0,0037093 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025786: I/O Request (UP), 2016-09-27 20:11:40,4328939 +0,0000055 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025788: Read Request (UP), 2016-09-27 20:11:40,4329060 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025789: I/O Request (DOWN), 2016-09-27 20:11:40,4329380 +0,0000320 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025792: Write Request (DOWN), 2016-09-27 20:11:40,4847686 +0,0518184 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025794: I/O Request (UP), 2016-09-27 20:11:40,4889368 +0,0040812 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025796: I/O Request (UP), 2016-09-27 20:11:40,4889701 +0,0000083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025798: Read Request (UP), 2016-09-27 20:11:40,4889835 +0,0000022 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025799: I/O Request (DOWN), 2016-09-27 20:11:40,4890146 +0,0000311 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025802: Write Request (DOWN), 2016-09-27 20:11:40,5159490 +0,0269226 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025810: I/O Request (UP), 2016-09-27 20:11:40,5297110 +0,0010214 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025812: I/O Request (UP), 2016-09-27 20:11:40,5297420 +0,0000073 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=121
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025814: Read Request (UP), 2016-09-27 20:11:40,5297545 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x79 bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B4 0D 00 00 07 00 00 00 00 00 02 D2 24 4D 3E 07   ¥..........“$M>.
+ 6E 00 00 00 00 00 00 00 69                        n.......i
+
+025815: I/O Request (DOWN), 2016-09-27 20:11:40,5297849 +0,0000304 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025818: I/O Request (UP), 2016-09-27 20:11:40,5345298 +0,0047331 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025820: I/O Request (UP), 2016-09-27 20:11:40,5345637 +0,0000083 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025822: Read Request (UP), 2016-09-27 20:11:40,5345790 +0,0000025 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025823: I/O Request (DOWN), 2016-09-27 20:11:40,5346162 +0,0000372 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025826: Write Request (DOWN), 2016-09-27 20:11:40,5726806 +0,0380516 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 65 65                                 $M<.ee
+
+025828: I/O Request (UP), 2016-09-27 20:11:40,5760901 +0,0032962 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025830: I/O Request (UP), 2016-09-27 20:11:40,5761225 +0,0000080 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=17
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025832: Read Request (UP), 2016-09-27 20:11:40,5761362 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x11 bytes
+Status: 0x00000000
+ 24 4D 3E 0B 65 AC 0D 00 00 07 00 00 00 00 00 02   $M>.e¨..........
+ CA                                                 
+
+025833: I/O Request (DOWN), 2016-09-27 20:11:40,5761660 +0,0000298 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025836: Write Request (DOWN), 2016-09-27 20:11:40,5787950 +0,0026169 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x6 bytes
+ 24 4D 3C 00 69 69                                 $M<.ii
+
+025838: I/O Request (UP), 2016-09-27 20:11:40,5835424 +0,0046712 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025840: I/O Request (UP), 2016-09-27 20:11:40,5835760 +0,0000080 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=22
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025842: Read Request (UP), 2016-09-27 20:11:40,5835904 +0,0000022 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x16 bytes
+Status: 0x00000000
+ 24 4D 3E 10 69 DC 05 DC 05 DC 05 75 03 8B 06 DC   $M>.i‹.‹.‹.u.ã.‹
+ 05 DC 05 DC 05 82                                 .‹.‹.Ç
+
+025843: I/O Request (DOWN), 2016-09-27 20:11:40,5836240 +0,0000336 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+025846: Write Request (DOWN), 2016-09-27 20:11:40,6178518 +0,0342153 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x18 bytes
+ 24 4D 3C 00 74 74 24 4D 3C 00 65 65 24 4D 3C 00   $M<.tt$M<.ee$M<.
+ 6E 6E 24 4D 3C 00 69 69                           nn$M<.ii
+
+025854: I/O Request (UP), 2016-09-27 20:11:40,6327494 +0,0041238 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_WAIT_ON_MASK: Wait for event
+  Wait Result=RXCHAR: Any Character received
+
+025856: I/O Request (UP), 2016-09-27 20:11:40,6327811 +0,0000074 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_GET_COMMSTATUS: Retrieve COM status
+  Errors=0
+  HoldReasons=0
+  AmountInInQueue=143
+  AmountInOutQueue=0
+  EofReceived=FALSE
+  WaitForImmediate=FALSE
+
+025858: Read Request (UP), 2016-09-27 20:11:40,6327948 +0,0000019 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+Buffer size: 0x8f bytes
+Status: 0x00000000
+ 24 4D 3E 55 74 41 52 4D 3B 41 4E 47 4C 45 3B 48   $M>UtARM;ANGLE;H
+ 4F 52 49 5A 4F 4E 3B 42 41 52 4F 3B 4D 41 47 3B   ORIZON;BARO;MAG;
+ 48 45 41 44 46 52 45 45 3B 48 45 41 44 41 44 4A   HEADFREE;HEADADJ
+ 3B 47 50 53 20 48 4F 4D 45 3B 47 50 53 20 48 4F   ;GPS HOME;GPS HO
+ 4C 44 3B 42 45 45 50 45 52 3B 4F 53 44 20 53 57   LD;BEEPER;OSD SW
+ 3B 46 41 49 4C 53 41 46 45 3B 1D 24 4D 3E 0B 65   ;FAILSAFE;.$M>.e
+ B8 0D 00 00 07 00 00 00 00 00 02 DE 24 4D 3E 07   ∏..........ﬁ$M>.
+ 6E 00 00 00 00 00 00 00 69 24 4D 3E 10 69 DC 05   n.......i$M>.i‹.
+ DC 05 DC 05 75 03 8B 06 DC 05 DC 05 DC 05 82      ‹.‹.u.ã.‹.‹.‹.Ç
+025859: I/O Request (DOWN), 2016-09-27 20:11:40,6328259 +0,0000311 (1. Device: Silicon Labs CP210x USB to UART Bridge (COM21))
+IOCTL_SERIAL_SET_WAIT_MASK: Set current event mask
+  WaitMask=RXCHAR: Any Character received
+
+ 

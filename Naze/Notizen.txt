@@ -1,0 +1,101 @@
+Write 204 = CC
+ 24 4D 3C 0B CC 85 41 00 00 00 00 32 00 DC 05 00   $M<.Ì…A....2.Ü..
+ E8 
+ --> RC=133
+ -->EXPO=65
+ MSP_RC_TUNING	111	FC →	
+byteRC_RATE			UINT 8	range [0;100] => 85/133
+byteRC_EXPO			UINT 8	range [0;100] => 41/65
+byteRollPitchRate	UINT 8	range [0;100] => 0/0
+byteYawRate			UINT 8	range [0;100] => 0/0
+byteDynThrPID		UINT 8	range [0;100] => 0/0
+byteThrottle_MID	UINT 8	range [0;100] =>32/50
+byteThrottle_EXPO	UINT 8	range [0;100] =>0/0
+DC/220
+05/05
+00/00
+E8/232
+----------------------------------------------------------------
+geänderte Werte:
+)
+Buffer size: 0x11 bytes
+ 24 4D 3C 0B CC C7 64 00 00 00 00 34 64 DC 05 4D   $M<.ÌÇd....4dÜ.M
+ A0      
+MSP_RC_TUNING	111	FC →	
+byteRC_RATE			UINT 8	range [0;100] => C7/199
+byteRC_EXPO			UINT 8	range [0;100] => 64/100
+byteRollPitchRate	UINT 8	range [0;100]
+byteYawRate			UINT 8	range [0;100] 
+byteDynThrPID		UINT 8	range [0;100]
+byteThrottle_MID	UINT 8	range [0;100] 34/52
+byteThrottle_EXPO	UINT 8	range [0;100] 64/100
+DC/220
+05/05
+4D/77
+A0/160
+----------------------------------------------------------------------
+ 24 4D 3C 0B CC C7 64 00 00 00 00 34 64 DC 05 54   $M<.ÌÇd....4dÜ.T
+ B9 
+
+MSP_RC_TUNING	111	FC →	
+byteRC_RATE			UINT 8	range [0;100]
+byteRC_EXPO			UINT 8	range [0;100]
+byteRollPitchRate	UINT 8	range [0;100]
+byteYawRate			UINT 8	range [0;100] (54/84)
+byteDynThrPID		UINT 8	range [0;100]
+byteThrottle_MID	UINT 8	range [0;100]
+byteThrottle_EXPO	UINT 8	range [0;100] ¹
+-------------------------------------------------------------------
+Uint 16:
+)
+Buffer size: 0x1c bytes
+ 24 4D 3C 16 CF DC 05 57 04 3A 07 E8 03 E8 03 00   $M<.ÏÜ.W.:.è.è..
+ 00 00 00 00 00 00 00 6E 21 2B 23 29               .......n!+#)
+
+ MSP_SET_MISC	207	→ FC	
+intPowerTrigger1		UNIT 16	
+conf.minthrottle		UNIT 16	
+MAXTHROTTLE				UNIT 16	not used currently as a set variable
+MINCOMMAND				UNIT 16	not used currently as a set variable
+conf.failsafe_throttle	UNIT 16	 => E8 03/ 1000
+plog.arm				UNIT 16	not used, it's here to have the same struct as get
+plog.lifetime			UNIT 32	not used, it's here to have the same struct as get
+conf.mag_declination	UNIT 16	magnetic declination ( unit:1/10 degree )
+conf.vbatscale			UNIT 8	
+conf.vbatlevel_warn1	UNIT 8	unit: 1/10 volt
+conf.vbatlevel_warn2	UNIT 8	unit: 1/10 volt
+conf.vbatlevel_crit		UNIT 8	unit: 1/10 volt
+
+mi Throttle = 1111
+MidTrhott = 1500
+MaxThrott = 1850
+------------------------------------------------------------------------------------
+gleich wie oben nur failsave = 1111:
+ 24 4D 3C 16 CF DC 05 57 04 3A 07 E8 03 57 04 00   $M<.ÏÜ.W.:.è.W..
+ 00 00 00 00 00 00 00 6E 21 2B 23 91               .......n!+#‘
+ conf.failsafe_throttle	UNIT 16	 => 57 04/ 1111
+------------------------------------------------------------------------------------------
+gleich wie oben nur failsave = 1112:
+ 24 4D 3C 16 CF DC 05 57 04 3A 07 E8 03 58 04 00   $M<.ÏÜ.W.:.è.X..
+ 00 00 00 00 00 00 00 6E 21 2B 23 9E               .......n!+#ž
+----------------------------------------------------------------------
+1113:
+ 24 4D 3C 16 CF DC 05 57 04 3A 07 E8 03 59 04 00   $M<.ÏÜ.W.:.è.Y..
+ 00 00 00 00 00 00 00 6E 21 2B 23 9F               .......n!+#Ÿ
+ ----------------------------------------------------------------------------
+ 1114:
+  24 4D 3C 16 CF DC 05 57 04 3A 07 E8 03 5A 04 00   $M<.ÏÜ.W.:.è.Z..
+ 00 00 00 00 00 00 00 6E 21 2B 23 9C               .......n!+#œ
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
