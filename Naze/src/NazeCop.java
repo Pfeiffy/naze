@@ -137,7 +137,7 @@ public class NazeCop implements SerialPortEventListener {
 	}
 
 	// Armen des Copters
-	private void sendeMSP_SET_RAW_RC() throws IOException {
+	private void sendeMSP_SET_RAW_RC() throws IOException  {
 
 		int datalengt = 16;
 		int motor1 = 1200;
