@@ -6,7 +6,7 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// int befehlArray[] = { 36, 77, 60, 11, 204, 177, 100, 33, 44, 55, 66,
+		// int befehlArray[] = { 36, 77, 60 , 11, 204, 177, 100, 33, 44, 55, 66,
 		// 52, 100, 220, 5, 84, 183, 36, 77, 60, 0,
 		// 105, 105 };
 		int befehlArray[] = { 36, 77, 60, 11, 204, 177, 100, 33, 44, 55, 66, 52, 100, 220, 5, 84, 183 };
