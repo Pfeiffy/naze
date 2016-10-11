@@ -49,8 +49,8 @@ public class CopyOfSeriellTest implements SerialPortEventListener {
 
 	public CopyOfSeriellTest() {
 		try {
-			portID = CommPortIdentifier.getPortIdentifier("COM3"); // oder
-			System.out.println(CommPortIdentifier.getPortIdentifier("COM3")
+			portID = CommPortIdentifier.getPortIdentifier("COM1"); // oder
+			System.out.println(CommPortIdentifier.getPortIdentifier("COM1")
 					.isCurrentlyOwned());
 
 			// // /dev/ttyS0
